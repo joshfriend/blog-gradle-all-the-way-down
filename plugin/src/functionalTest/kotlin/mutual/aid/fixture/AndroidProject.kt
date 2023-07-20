@@ -27,6 +27,8 @@ class AndroidProject @JvmOverloads constructor(
       """
       org.gradle.jvmargs=-Dfile.encoding=UTF-8
       android.useAndroidX=true
+      org.gradle.unsafe.configuration-cache=true
+      org.gradle.configuration-cache=true
       """.trimIndent()
     )
 
